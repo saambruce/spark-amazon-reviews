@@ -24,4 +24,5 @@ if __name__ == "__main__":
         .sortByKey()
     
     final_rdd.saveAsTextFile(sys.argv[2])
-sc.stop()
+    
+    sc.stop()
